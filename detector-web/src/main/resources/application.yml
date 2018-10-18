@@ -16,8 +16,8 @@ spring:
       remove-abandoned-timeout: 1800 #关闭空闲连接超时时间
       filter-class-names: stat
       filters: stat,config
-  mybatis:
-    # 配置xml 的扫描路径
-    mapper-locations: classpath*:mapper/*.xml
-    check-config-location: true
-    type-aliases-package: org.spring.boot.po
+  # 配置xml 的扫描路径
+mybatis:
+  mapper-locations: classpath*:/mapper/*.xml
+  check-config-location: true
+  type-aliases-package: com.ipr.detector.entity
