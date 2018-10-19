@@ -23,3 +23,8 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+/.mvn/
+/detector-base/target/
+/detector-dao/target/
+/detector-service/target/
+/detector-web/target/
