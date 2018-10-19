@@ -1,5 +1,6 @@
 package com.ipr.detector.controller.test;
 
+import com.ipr.detector.base.redis.RedisService;
 import com.ipr.detector.base.utils.ApiResponse;
 import com.ipr.detector.service.test.ITestService;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -22,10 +23,21 @@ public class TestController {
 
     @Resource
     private ITestService testService;
-
+    @Resource
+    private RedisService redisService;
 
     @GetMapping("list")
-    public ApiResponse list(){
-        return ApiResponse.create().setData(testService.getById(1111));
+    public ApiResponse list() {
+        String key = "count_sum";
+        Integer i = 0;
+        if (redisService.hasKey(key)) {
+            String value = redisService.get(key);
+            i=Integer.valueOf(value)+1;
+            redisService.set(key,i.toString());
+        }else {
+            i+=1;
+            redisService.set(key,i.toString());
+        }
+        return ApiResponse.create().setData(testService.getById(1111)).setMsg(i.toString());
     }
 }

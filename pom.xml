@@ -35,7 +35,8 @@
         <html.parser.version>1.6</html.parser.version>
         <commons.lang3.version>3.7</commons.lang3.version>
         <commons.logging.version>1.2</commons.logging.version>
-        <alibaba.fastjson.version>1.2.40</alibaba.fastjson.version>
+        <commons.pool.version>2.5.0</commons.pool.version>
+        <alibaba.fastjson.version>1.2.47</alibaba.fastjson.version>
         <slf4j.version>1.7.25</slf4j.version>
         <httpclient.version>4.5.5</httpclient.version>
         <commons.io.version>2.5</commons.io.version>
@@ -53,6 +54,11 @@
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-lang3</artifactId>
                 <version>${commons.lang3.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-pool2</artifactId>
+                <version>${commons.pool.version}</version>
             </dependency>
             <dependency>
                 <groupId>commons-logging</groupId>
