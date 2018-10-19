@@ -45,10 +45,6 @@
         </dependency>
         <dependency>
             <groupId>com.ipr</groupId>
-            <artifactId>detector-entity</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.ipr</groupId>
             <artifactId>detector-dao</artifactId>
         </dependency>
         <dependency>

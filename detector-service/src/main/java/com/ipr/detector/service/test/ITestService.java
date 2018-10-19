@@ -1,6 +1,7 @@
 package com.ipr.detector.service.test;
 
-import com.ipr.detector.entity.trademark.Trademark;
+
+import com.ipr.detector.dataobject.trademark.Trademark;
 
 /**
  * <br/>

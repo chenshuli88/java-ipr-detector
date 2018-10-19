@@ -16,19 +16,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
-        <dependency>
-            <groupId>com.ipr</groupId>
-            <artifactId>detector-entity</artifactId>
-        </dependency>
         <dependency>
             <groupId>com.ipr</groupId>
             <artifactId>detector-dao</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.ipr</groupId>
-            <artifactId>detector-base</artifactId>
-        </dependency>
+
     </dependencies>
 
 </project>

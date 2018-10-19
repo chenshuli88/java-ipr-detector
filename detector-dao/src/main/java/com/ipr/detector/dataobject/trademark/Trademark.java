@@ -1,4 +1,4 @@
-package com.ipr.detector.entity.trademark;
+package com.ipr.detector.dataobject.trademark;
 
 import java.io.Serializable;
 

@@ -1,8 +1,7 @@
 package com.ipr.detector.service.test.impl;
 
-import com.ipr.detector.base.utils.StringUtils;
 import com.ipr.detector.dao.ITestDao;
-import com.ipr.detector.entity.trademark.Trademark;
+import com.ipr.detector.dataobject.trademark.Trademark;
 import com.ipr.detector.service.test.ITestService;
 import org.springframework.stereotype.Service;
 

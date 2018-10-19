@@ -14,7 +14,7 @@
     <dependencies>
         <dependency>
             <groupId>com.ipr</groupId>
-            <artifactId>detector-entity</artifactId>
+            <artifactId>detector-base</artifactId>
         </dependency>
         <dependency>
             <groupId>mysql</groupId>

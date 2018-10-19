@@ -1,7 +1,7 @@
 package com.ipr.detector.dao;
 
-import com.ipr.detector.entity.trademark.Trademark;
 
+import com.ipr.detector.dataobject.trademark.Trademark;
 
 /**
  * <br/>
