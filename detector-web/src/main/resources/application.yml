@@ -3,9 +3,9 @@ spring:
     active: dev
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://172.20.20.104:3306/zhubajie_bj_declareopen
-    username: writer
-    password: zhubajie
+    url: jdbc:mysql://localhost:3306/detector
+    username: detector
+    password: detector
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
       initial-size: 8 #初始化连接大小
